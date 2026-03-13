@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Daily Photo Challenge</title>
+<link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+<h1>Daily Photo Challenge</h1>
+<p>Capturing small beautiful moments</p>
+</header>
+
+<nav>
+<a href="home.php">Home</a>
+<a href="gallery.php">Gallery</a>
+<a href="children.php">Children</a>
+<a href="about.php">About</a>
+<a href="services.php">Services</a>
+<a href="contact.php">Contact</a>
+</nav>
+
+<section class="intro">
+<h2>Welcome</h2>
+<p>This website shows my daily photography collection taken with my smartphone.</p>
+</section>
+
+<section class="gallery">
+
+<img src="https://picsum.photos/300?1" onclick="showImage(this)">
+<img src="https://picsum.photos/300?2" onclick="showImage(this)">
+<img src="https://picsum.photos/300?3" onclick="showImage(this)">
+<img src="https://picsum.photos/300?4" onclick="showImage(this)">
+<img src="https://picsum.photos/300?5" onclick="showImage(this)">
+<img src="https://picsum.photos/300?6" onclick="showImage(this)">
+
+</section>
+
+<div id="popup">
+<img id="popup-img">
+</div>
+
+<footer>
+<p>© 2026 Photography Website</p>
+</footer>
+
+<script src="script.js"></script>
+
+
+</body>
+</html>
