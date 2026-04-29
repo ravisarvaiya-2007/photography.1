@@ -35,6 +35,16 @@ if (isset($_POST['marks'])) {
 <!DOCTYPE html>
 <html>
 <head>
+
+    <!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBG7ED5SH7"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-VBG7ED5SH7');
+</script>
     <title>Smart Attendance Tracker</title>
     
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
@@ -58,14 +68,7 @@ if (isset($_POST['marks'])) {
     </style>
 </script>
 
-     <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-VBG7ED5SH7"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  gtag('config', 'G-VBG7ED5SH7');
+   
 </head>
 <body class="bg-light">
 
