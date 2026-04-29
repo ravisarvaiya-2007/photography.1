@@ -56,8 +56,9 @@ if (isset($_POST['marks'])) {
     font-weight: bold;
 }
     </style>
+</script>
 
-    <!-- Google tag (gtag.js) -->
+     <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-VBG7ED5SH7"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -65,7 +66,6 @@ if (isset($_POST['marks'])) {
   gtag('js', new Date());
 
   gtag('config', 'G-VBG7ED5SH7');
-</script>
 </head>
 <body class="bg-light">
 
